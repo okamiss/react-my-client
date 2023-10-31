@@ -1,0 +1,10 @@
+$color: #f00;
+
+.flexaaaa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
