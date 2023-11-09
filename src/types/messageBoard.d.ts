@@ -1,4 +1,4 @@
- export interface messageBoardData {
+  interface messageBoardData {
   name: string
   comments: string
   id: string

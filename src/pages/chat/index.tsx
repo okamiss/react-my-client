@@ -1,7 +1,11 @@
 import React from 'react'
+import { MyBox } from './style'
+import classNames from 'classnames'
 
 export default function chat() {
   return (
-    <div>chat</div>
+    <MyBox>
+      <div className={classNames({ redColor: true, greenColor: true })}></div>
+    </MyBox>
   )
 }

@@ -5,8 +5,6 @@ import { LikeOutlined } from '@ant-design/icons'
 import { useDispatch, useSelector } from 'react-redux'
 import { agree, del } from '@/store/reducers/messageBoard'
 
-import type { messageBoardData } from '@/types/messageBoard'
-
 export default function top() {
   const dataList = useSelector((state: RootState) => state.messageBoard.dataList)
   const dispatch = useDispatch()
